@@ -1,22 +1,22 @@
-﻿# CleanUP
+# Dependencies Cleaner
 
-> Ferramenta para remover classes de arquivos JAR
+> Ferramenta para remover arquivos específicos e classes dentro de arquivos JAR
 
 ## 🚀 Tecnologias
 
-- **.NET 10**
-- **Native AOT** - Compilação nativa para melhor performance
+- **Rust**
+- **Cargo** - Gerenciador de pacotes e compilação
 
 ## 📦 Build
 
-Para compilar o projeto, execute:
+Para compilar o projeto, execute o comando na raiz principal:
 
 ```bash
-dotnet publish -r win-x64 -c Release
+cargo build --release
 ```
 
 ---
 
 <div align="center">
-  <sub>Desenvolvido com .NET 10 e Native AOT</sub>
+  <sub>Desenvolvedor: Mk</sub>
 </div>
